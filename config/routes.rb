@@ -1,8 +1,12 @@
 Week4hw::Application.routes.draw do
 
-  get "/" => "pages#home"
+  get "/weather/search" => "weather#search"
+  get "/weather/conditions" => "weather#conditions"
 
-  # HINT: Add more routes here...
+  get "/salons/index" => "salons#index"
+  get "/salons/show" => "salons#show"
+
+# HINT: Add more routes here...
 
 
 
